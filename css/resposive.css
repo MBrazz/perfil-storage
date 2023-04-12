@@ -1,0 +1,104 @@
+@media screen and (max-width: 1520px) {
+    table {
+    padding: 0 3rem 3.5rem 3rem;
+  }
+
+  .update {
+    padding: 3.5rem 3rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body {
+      padding: 4% 15%;
+  }
+
+  #photo {
+    width: 180px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  body {
+      padding: 4% 10%;
+  }
+
+  #photo {
+    width: 170px;
+
+  }
+
+    table {
+    padding: 0 3rem 3.5rem 3rem;
+  }
+
+  .update {
+    padding: 3.5rem 3rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+      padding: 4% 6%;
+  }
+
+  #photo {
+    width: 160px;
+
+  }
+
+    table {
+    padding: 0 2rem 3.5rem 2rem;
+  }
+
+  .update {
+    padding: 3.5rem 2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 570px) {
+  body {
+    padding: 0px;
+  }
+
+  #photo {
+    width: 31%;
+    bottom: 4.2rem;
+    margin-bottom: -3.6rem;
+  }
+
+  #banner {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .profile {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+  .profile h1 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+  }
+
+  table {
+    padding: 0 1.5rem 3.5rem 1.5rem;
+  }
+
+  .update {
+    border-radius: 0px;
+    padding: 3.5rem 1.5rem;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* 1920×1080 (9.94%)
+1366×768 (6.22%)
+360×640 (5.88%)
+414×896 (4.21%)
+1536×864 (3.94%)
+375×667 (3.74%) */

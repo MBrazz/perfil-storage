@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/resposive.css">
+  <link rel="shortcut icon" href="./images/profile-image.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+  <title>Perfil Sync360</title>
+</head>
+
+<body>
+
+  <section class="profile">
+    <header>
+      <img src="./images/banner.svg" id="banner" alt="Banner do perfil">
+      <img src="./images/profile-image.svg" id="photo" alt="Silhueta de perfil">
+    </header>
+    <h1 id="profile-name">Mateus Braz</h1>
+    <table>
+      <tr>
+        <th>Idade</th>
+        <td id="profile-age">20 anos</td>
+      </tr>
+
+      <tr>
+        <th>Localização</th>
+        <td id="profile-location">Ferraz de Vasconcelos - SP</td>
+      </tr>
+
+
+      <tr>
+        <th>Biografia</th>
+        <td id="profile-bio">Minha jornada no mundo da programação começou em junho de 2019, mês que comecei a cursar o técnico em
+          Desenvolvimento de Sistemas na escola Senai Informática. Logo de cara me identifiquei com a
+          parte visual da "coisa" ou seja front-end e design.
+          </td>
+      </tr>
+
+
+    </table>
+  </section>
+  <section class="update">
+    <h1>Atualizar informações</h1>
+    <form action="" id="form">
+      <div class="name">
+        <input type="text" name="name" id="name" placeholder="Nome">
+      </div>
+      <div class="row">
+        <div class="age">
+          <input type="number" name="age" id="age" min="1" max="199" placeholder="Idade">
+        </div>
+        <div class="location">
+          <input type="text" name="location" id="location" placeholder="Localização">
+        </div>
+      </div>
+      <div class="bio">
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Biografia"></textarea>
+      </div>
+      <button type="submit" id="send">ENVIAR</button>
+    </form>
+  </section>
+
+</body>
+
+</html>
